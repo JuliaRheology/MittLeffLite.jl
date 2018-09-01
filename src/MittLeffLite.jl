@@ -1,6 +1,6 @@
 __precompile__()
 
-module MittagLeffler
+module MittLeffLite
 
 export mittleff
 export mittlefferr
