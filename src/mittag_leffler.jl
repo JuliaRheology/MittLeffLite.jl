@@ -173,6 +173,7 @@ function _mittleff(α,β,z,ρ)
 #    end
     z == 0 && return 1/gamma(β)
     α == 1 && β == 1 && return(exp(z))
+    α == 0 && β == 1 && return(1)
     α < 0  && throw(DomainError())
     az = abs(z)
     1 < α && return mittleffsum(α,β,z)
