@@ -1,0 +1,6 @@
+authors = ["John Lapeyre", "Louis Kaplan"]
+name = "MittLeffLite"
+uuid = "c44f7210-c8ca-11e8-0508-2b84df03947e"
+version = "0.1.0"
+
+[deps]
